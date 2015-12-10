@@ -1,7 +1,3 @@
-
-elixir("css/app.css")
-elixir("js/main.js")
-
 <!DOCTYPE html>
 <html>
     <head>
