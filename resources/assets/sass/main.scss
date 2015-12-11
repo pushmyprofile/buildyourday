@@ -1,0 +1,50 @@
+
+/* All Styles For Front Facing Website 
+
+
+#1 - Hero Image (Front Page)
+
+*/
+
+/* #1 - HERO IMAGE */
+
+.hero
+{
+	
+	background:url("/images/hero-image.png");
+
+	background-size:cover;
+
+    display: table;
+
+    height: 100vh;
+
+    min-height: 100%;
+
+    width: 100%;
+
+}
+
+.logo {
+    left: 120px;
+    max-width: 70%;
+    position: relative;
+    top: 50px;
+}
+
+ul.menu {
+    margin-top: 60px;
+
+    padding-right:40px;
+}
+
+.top-bar li > a, .top-bar ul li > a
+{
+	
+color:#000;
+
+}
+
+.top-bar, .top-bar ul {
+    background-color: rgba(0,0,0,0);
+}

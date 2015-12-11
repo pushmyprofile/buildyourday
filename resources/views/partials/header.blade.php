@@ -1,6 +1,7 @@
+<div class="hero">
 <div class="top-bar">
 	<div class="top-bar-left">		
-			<li class="menu-text">Yeti Agency</li>
+			<img class="logo" src="/images/logo.png" alt="BuildYourDay">
 		</div>
 		<div class="top-bar-right">
 		<ul class="menu">
@@ -10,5 +11,6 @@
 			<li><a href="#">Six</a></li>
 		</ul>
 	</div>
+</div>
 </div>
  
