@@ -11,6 +11,13 @@
 |
 */
 
+//Get Homepage
 Route::get('/', function () {
     return view('index');
 });
+
+//Get Pages
+Route::get('how-it-works', 'PagesController@howitworks');
+Route::get('pricing', 'PagesController@pricing');
+Route::get('about-us', 'PagesController@aboutus');
+

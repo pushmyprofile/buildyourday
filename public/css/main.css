@@ -7,7 +7,7 @@
 */
 /* #1 - HERO IMAGE */
 .hero {
-  background: url("/images/hero-image.png");
+  background: url("/images/hero-image2.png");
   background-size: cover;
   display: table;
   height: 100vh;
@@ -16,7 +16,7 @@
 
 .logo {
   left: 120px;
-  max-width: 70%;
+  max-width: 50%;
   position: relative;
   top: 50px; }
 
