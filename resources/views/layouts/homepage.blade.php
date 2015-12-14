@@ -4,7 +4,7 @@
 	@include('partials.header-scripts')
 	</head>
 <body>
-    @include('partials.header')
+    @include('partials.home-header')
 	<div class="container margin-top">
 	@yield('content')
 	</div>
