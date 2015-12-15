@@ -24,7 +24,6 @@ elixir(function(mix) {
 
 
      mix.sass([
-        'variables.scss',
         'main.scss'
     ], './public/css/main.css');
 

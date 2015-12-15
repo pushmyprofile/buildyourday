@@ -1,11 +1,11 @@
 @charset "UTF-8";
+/* Overide Settings */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -3123,14 +3123,14 @@ table.hover tr:nth-of-type(even):hover {
     transform: translateY(-50%); }
 
 .top-bar {
-  padding: 0.5rem; }
+  padding: 1.4rem; }
   .top-bar::before, .top-bar::after {
     content: ' ';
     display: table; }
   .top-bar::after {
     clear: both; }
   .top-bar, .top-bar ul {
-    background-color: #eee; }
+    background-color: rgba(0, 0, 0, 0.2); }
     .top-bar li > a, .top-bar ul li > a {
       color: #fff; }
   .top-bar input {

@@ -16,7 +16,7 @@ body
     
 font-family: 'Montserrat', sans-serif;
 
-}
+}  
 
 /* #2 - Hero Image */
 
@@ -41,22 +41,28 @@ font-family: 'Montserrat', sans-serif;
     left: 120px;
     max-width: 50%;
     position: relative;
-    top: 50px;
+    top: 5px; 
 }
 
 ul.menu {
-    margin-top: 60px;
+
+    background:transparent;
+    
+    margin-top: 20px;
 
     padding-right:40px;
+
+    a
+    {
+
+    font-size: 20px;
+    margin: 0 20px;
+
+    }
 }
 
-.top-bar li > a, .top-bar ul li > a
-{
-	
-color:#000;
 
-}
 
-.top-bar, .top-bar ul {
-    background-color: rgba(0,0,0,0);
-}
+
+
+
