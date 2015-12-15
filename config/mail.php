@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'from' => ['address' => null, 'name' => null],
+    'from' => ['address' => 'postmaster@sandbox05440a661d544a708685e4251a248daf.mailgun.org', 'name' => 'BuildYourDay'],
 
     /*
     |--------------------------------------------------------------------------
