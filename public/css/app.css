@@ -1,5 +1,9 @@
 @charset "UTF-8";
+/* colours */
+/* Misc */
 /* Overide Settings */
+/* Top Bar */
+/* Buttons */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -1421,16 +1425,16 @@ kbd {
   vertical-align: middle;
   border: 1px solid transparent;
   border-radius: 0;
-  padding: 0.85em 1em;
+  padding: 1.5em;
   margin: 0 1rem 1rem 0;
   font-size: 0.9rem;
-  background: #2199e8;
-  color: #fff; }
+  background: #A9E5CD;
+  color: #000; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background: #1583cc;
-    color: #fff; }
+    background: #7bd7b2;
+    color: #000; }
   .button.tiny {
     font-size: 0.6rem; }
   .button.small {
@@ -1525,7 +1529,7 @@ kbd {
     position: relative;
     top: 0.4em;
     float: right;
-    margin-left: 1em;
+    margin-left: 1.5em;
     display: inline-block; }
   .button.arrow-only::after {
     margin-left: 0;
@@ -3130,7 +3134,7 @@ table.hover tr:nth-of-type(even):hover {
   .top-bar::after {
     clear: both; }
   .top-bar, .top-bar ul {
-    background-color: rgba(0, 0, 0, 0.2); }
+    background-color: rgba(0, 0, 0, 0.1); }
     .top-bar li > a, .top-bar ul li > a {
       color: #fff; }
   .top-bar input {

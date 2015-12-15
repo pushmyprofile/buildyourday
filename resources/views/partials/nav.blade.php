@@ -17,8 +17,8 @@
 			<li>Welcome {{ Auth::user()->name }} </li>
 			<li><a href="{{ route('logout') }}" class="button">Log Out</a></li>
 			@else
-			<li><a href="{{ route('register') }}" class="button">Sign Up</a></li>
-			<li><a href="{{ route('login') }}" class="button">Login</a></li>
+			<li><a href="{{ route('register') }}" class="button large">Sign Up</a></li>
+			<li><a href="{{ route('login') }}" class="button large">Login</a></li>
 			@endif
 		</ul>
 	</div>
