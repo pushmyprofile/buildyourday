@@ -11,7 +11,19 @@
 body {
   font-family: 'Montserrat', sans-serif; }
 
-/* #2 - Hero Image */
+.valign-wrapper {
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.valign-wrapper .valign {
+  display: block;
+  margin: 0 auto; }
+
+/* #3 - Hero Image */
 .hero {
   background: url("/images/hero-image2.png");
   background-size: cover;
@@ -19,6 +31,16 @@ body {
   height: 100vh;
   min-height: 100%;
   width: 100%; }
+  .hero h1 {
+    color: #fff;
+    font-size: 7rem;
+    margin-top: 10%;
+    text-align: center; }
+  .hero P {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 100px; }
 
 .logo {
   left: 120px;
