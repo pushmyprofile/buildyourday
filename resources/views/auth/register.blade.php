@@ -1,19 +1,14 @@
-@section('content')
-<div class="container-fluid container-top-extra">
-
 <div class="row">
 
-<div class="col-md-8 col-md-offset-2">
+<div class="small-12 columns">
 
-<div class="panel panel-default">
+<h1 class="text-center">Register</h1>
 
-<div class="panel-heading">Register</div>
-
-<div class="panel-body">
+<div class="panel">
 
 @if (count($errors) > 0)
 
-<div class="alert alert-danger">
+<div class="callout alert">
 
 <strong>Whoops!</strong> There were some problems with your input.<br><br>
 
@@ -87,7 +82,7 @@
 
 <div class="col-md-6 col-md-offset-4">
 
-<button type="submit" class="btn btn-primary">
+<button type="submit" class="button large">
 
 Register
 

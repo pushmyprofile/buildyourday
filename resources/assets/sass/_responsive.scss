@@ -1,0 +1,24 @@
+/* All Styles For Responsive Screen Sizes
+
+#1 - Mobile/Phones
+
+*/
+
+/* #1 - Mobile/Phones */
+
+@media #{$small-only} {
+
+
+.hero
+{
+	
+	h1
+	{
+
+	font-size:3rem;
+
+	}
+
+}
+
+}

@@ -4,6 +4,8 @@
 #1 - Fonts
 #2 - General Styles
 #3 - Hero Image (Front Page)
+#4 - Forms
+#5 - Mobile Menu
 
 */
 
@@ -14,7 +16,7 @@
 body
 {
     
-font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat', sans-serif;  
 
 }  
 
@@ -24,6 +26,8 @@ font-family: 'Montserrat', sans-serif;
 
     display: flex;
 
+    margin-top:20px;
+
 }
 
 .valign-wrapper .valign {  
@@ -31,6 +35,13 @@ font-family: 'Montserrat', sans-serif;
     display: block;
 
     margin:0 auto;
+
+}
+
+.content
+{
+    
+    padding-top:80px;
 
 }
 
@@ -98,11 +109,100 @@ ul.menu {
     margin: 0 20px;
 
     }
+
+    li
+    {
+
+    color:#fff;
+
+    }
 }
 
-.fade-in {
-  @include mui-fade(in);
+/* #4 - Forms */
+label
+{
+    
+font-size:2rem;
+
 }
+
+[type="text"], [type="password"], [type="date"], [type="datetime"], [type="datetime-local"], [type="month"], [type="week"], [type="email"], [type="number"], [type="search"], [type="tel"], [type="time"], [type="url"], [type="color"], textarea
+{
+    
+ -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #ccc;
+    border-style: none none solid;
+    border-width: 0 0 3px;
+    box-shadow: none;
+    font-size: 1.6rem;
+    height: 3.5rem;
+
+}
+
+[type="text"]:focus, [type="password"]:focus, [type="date"]:focus, [type="datetime"]:focus, [type="datetime-local"]:focus, [type="month"]:focus, [type="week"]:focus, [type="email"]:focus, [type="number"]:focus, [type="search"]:focus, [type="tel"]:focus, [type="time"]:focus, [type="url"]:focus, [type="color"]:focus, textarea:focus
+{
+    
+
+-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #7BD7B2;
+    border-style: none none solid;
+    border-width: 0 0 3px;
+    box-shadow: none;
+
+}
+
+.close-button
+{
+    
+    color:#fff;
+
+    font-size:6rem;
+
+}
+
+/* #5 - Mobile Menu */
+#mobile-menu 
+{
+    h2
+    {
+
+    color:#fff;
+    
+    }
+
+    a
+    {
+
+    text-align:center;
+
+    color:#fff;
+
+    }
+
+    li
+    {
+
+    text-laign:center;
+
+    }
+
+    ul.menu
+    {
+
+    padding:0;
+
+    }
+}
+
+
+
+
 
 
 

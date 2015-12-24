@@ -1,21 +1,15 @@
 @extends('layouts.master')
 @section('content')
 
-<div class="container-fluid container-top-extra">
+
 
 <div class="row">
 
-<div class="col-md-8 col-md-offset-2">
-
-<div class="panel panel-default">
-
-<div class="panel-heading">Login</div>
-
-<div class="panel-body">
+<h1 class="text-center">Login</h1>
 
 @if (count($errors) > 0)
 
-<div class="alert alert-danger">
+<div class="callout alert">
 
 <strong>Whoops!</strong> There were some problems with your input.<br><br>
 
@@ -83,9 +77,9 @@
 
 <div class="col-md-6 col-md-offset-4">
 
-<button type="submit" class="btn btn-primary">Login</button>
+<button type="submit" class="button large">Login</button>
 
-<a class="btn btn-link" href="{{ url('/password/email') }}">Forgot Your Password?</a>
+<a class="button large" href="{{ url('/password/email') }}">Forgot Your Password?</a>
 
 </div>
 

@@ -5,9 +5,9 @@
 	</head>
 <body>
     @include('partials.home-header')
-	<div class="container margin-top">
+	<div class="container content">
 	@yield('content')
 	</div>
-
+    @include('partials.footer-scripts')
 </body>
 </html>

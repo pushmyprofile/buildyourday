@@ -4,6 +4,16 @@
 /* Overide Settings */
 /* Top Bar */
 /* Buttons */
+/* Modals */
+/* All Styles For Responsive Screen Sizes
+
+#1 - Mobile/Phones
+
+*/
+/* #1 - Mobile/Phones */
+.hero h1 {
+  font-size: 3rem; }
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -2743,10 +2753,10 @@ body {
 .reveal {
   display: none;
   z-index: 1006;
-  padding: 1rem;
-  border: 1px solid #cacaca;
+  padding: 8rem 4rem;
+  border: 0px;
   margin: 100px auto 0 auto;
-  background-color: #fefefe;
+  background-color: rgba(0, 0, 0, 0.8);
   border-radius: 0;
   position: absolute;
   overflow-y: auto; }
@@ -2763,7 +2773,7 @@ body {
   @media screen and (min-width: 40em) {
     .reveal {
       width: 600px;
-      max-width: 75rem; } }
+      max-width: 100%; } }
   .reveal.collapse {
     padding: 0; }
   @media screen and (min-width: 40em) {
@@ -2774,15 +2784,15 @@ body {
   @media screen and (min-width: 40em) {
     .reveal.tiny {
       width: 30%;
-      max-width: 75rem; } }
+      max-width: 100%; } }
   @media screen and (min-width: 40em) {
     .reveal.small {
       width: 50%;
-      max-width: 75rem; } }
+      max-width: 100%; } }
   @media screen and (min-width: 40em) {
     .reveal.large {
       width: 90%;
-      max-width: 75rem; } }
+      max-width: 100%; } }
   .reveal.full {
     top: 0;
     left: 0;
@@ -3560,12 +3570,5 @@ table.hover tr:nth-of-type(even):hover {
 
 .long-delay {
   transition-delay: 700ms !important; }
-
-.fade-in.mui-enter {
-  opacity: 0;
-  transition-property: opacity; }
-
-.fade-in.mui-enter.mui-enter-active {
-  opacity: 1; }
 
 /*# sourceMappingURL=app.css.map */

@@ -3,11 +3,10 @@
 	<title>Build Your Day</title>
 	@include('partials.header-scripts')
 	</head>
-<body>
+<body class="dashboard">
     @include('partials.dashboard-header')
-	<div class="container margin-top">
+	<div class="container content">
 	@yield('content')
 	</div>
-
 </body>
 </html>

@@ -1,0 +1,60 @@
+
+/* All Styles For Dashboard
+
+#1 - General Dashboard Styles
+
+
+*/
+
+/* #1 - General DashBoard Styles */
+
+body.dashboard
+{
+	
+	background:#eee;
+
+}
+
+.dashboard
+{
+	
+	.top-bar, .top-bar ul
+	{
+
+	background:#9CE1C5;   
+
+	margin-top:0px;
+
+	padding:0;
+
+	}
+
+	.menu.dashboard-menu a {
+
+    background: #9CE1C5 none repeat scroll 0 0;
+
+    color:#fff;
+    
+	}
+
+	.fa-5x {
+    
+    font-size: 8em;
+	
+	}
+
+	.logo {
+    max-width: 40%;
+    position: relative;
+    top: 10px;
+	}
+
+	.dashboard-activities
+	{
+
+	padding:5rem;
+
+	}
+
+
+}

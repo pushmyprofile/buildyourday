@@ -40,6 +40,10 @@ Route::post('password/email', 'Auth\PasswordController@postEmail');
 Route::get('password/reset/{token}', 'Auth\PasswordController@getReset');
 Route::post('password/reset', 'Auth\PasswordController@postReset');
 
+//Load User Profile
+Route::get('dashboard/profile/', 'ProfilesController@show');
+Route::get('dashboard/profile/edit', ['as' => 'profile.edit', 'uses' => 'PagesController@edit']);
+
 //Load User Dashboard
 Route::get('dashboard', 'DashboardController@home');
 

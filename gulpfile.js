@@ -34,16 +34,20 @@ elixir(function(mix) {
         'main.scss'
     ], './public/css/main.css');
 
+      mix.sass([
+        'dashboard.scss'
+    ], './public/css/dashboard.css');
+
 
      
     mix.scripts([
 
         // vendor
-        path.bower + 'jquery/dist/jquery.js',
+        path.bower + 'jquery/dist/jquery.min.js',
         path.bower + 'what-input/what-input.js',
 
         // foundation core
-        // path.bower + path.foundation + 'dist/foundation.js',
+        //path.bower + path.foundation + 'dist/foundation.js',
         path.bower + path.foundation + 'js/foundation.core.js',
         path.bower + path.foundation + 'js/foundation.util.mediaQuery.js',
         // foundation plug-ins
@@ -57,9 +61,19 @@ elixir(function(mix) {
         path.bower + path.foundation + 'js/foundation.responsiveMenu.js',
         path.bower + path.foundation + 'js/foundation.responsiveToggle.js',
         path.bower + path.foundation + 'js/foundation.toggler.js',
-        path.bower + path.motionui + 'dist/motion-ui.js',
+        path.bower + path.foundation + 'js/foundation.reveal.js',
+        path.bower + path.motionui + 'dist/motion-ui.js',  
+
+
    
 
     ], 'public/js/vendor.js', './');
+
+mix.scripts([
+
+        // custom javascript
+        'resources/assets/js/app.js',  
+
+    ], 'public/js/app.js', './');
 
 }); 
