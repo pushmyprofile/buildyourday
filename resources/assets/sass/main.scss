@@ -6,6 +6,7 @@
 #3 - Hero Image (Front Page)
 #4 - Forms
 #5 - Mobile Menu
+#6 - Homepage Icons
 
 */
 
@@ -13,7 +14,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /* #2 - General Styles */
-body
+body  
 {
     
 font-family: 'Montserrat', sans-serif;  
@@ -68,7 +69,7 @@ font-family: 'Montserrat', sans-serif;
     color: #fff;
     font-size: 7rem;
     margin-top: 10%;
-    text-align: center;
+    text-align: center;  
 
     }
 
@@ -157,12 +158,19 @@ font-size:2rem;
 
 }
 
-.close-button
+.close-button  
 {
     
     color:#fff;
 
     font-size:6rem;
+
+}
+
+label
+{
+    
+    color:#fff;
 
 }
 
@@ -188,7 +196,7 @@ font-size:2rem;
     li
     {
 
-    text-laign:center;
+    text-align:center;
 
     }
 
@@ -197,8 +205,12 @@ font-size:2rem;
 
     padding:0;
 
-    }
+    }  
 }
+
+
+
+
 
 
 

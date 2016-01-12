@@ -2,10 +2,11 @@
 @import 'variables';
 @import 'settings';
 @import 'foundation';
-@import 'responsive';
 @include foundation-everything;
+@import 'responsive';
 @import 'motion-ui';
-@include motion-ui-transitions;              
+@include motion-ui-transitions;
+@import 'animations';                           
 
 
 

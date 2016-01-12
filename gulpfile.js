@@ -62,6 +62,7 @@ elixir(function(mix) {
         path.bower + path.foundation + 'js/foundation.responsiveToggle.js',
         path.bower + path.foundation + 'js/foundation.toggler.js',
         path.bower + path.foundation + 'js/foundation.reveal.js',
+        path.bower + path.foundation + 'js/foundation.magellan.js',
         path.bower + path.motionui + 'dist/motion-ui.js',  
 
 

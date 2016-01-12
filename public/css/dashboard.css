@@ -8,6 +8,14 @@
 body.dashboard {
   background: #eee; }
 
+.dashboard .container.content {
+  background: url("/images/hero-image2.png");
+  background-size: cover;
+  display: table;
+  height: 100vh;
+  min-height: 100%;
+  width: 100%; }
+
 .dashboard .top-bar, .dashboard .top-bar ul {
   background: #9CE1C5;
   margin-top: 0px;

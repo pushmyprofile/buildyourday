@@ -1,0 +1,13 @@
+/* #6 - Homepage Icons */    
+
+
+@include mui-series (1s) {  
+  .icon-build  { @include mui-queue(1s, 0s, fade, zoom); }
+
+
+  .icon-invite  { @include mui-queue(1s, 0s, fade, zoom); }
+
+
+  .icon-connect  { @include mui-queue(1s, 0s, fade, zoom); }
+}
+

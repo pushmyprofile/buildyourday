@@ -5,6 +5,7 @@
 #3 - Hero Image (Front Page)
 #4 - Forms
 #5 - Mobile Menu
+#6 - Homepage Icons
 
 */
 /* #1 - Fonts */
@@ -94,6 +95,9 @@ label {
   color: #fff;
   font-size: 6rem; }
 
+label {
+  color: #fff; }
+
 /* #5 - Mobile Menu */
 #mobile-menu h2 {
   color: #fff; }
@@ -103,7 +107,7 @@ label {
   color: #fff; }
 
 #mobile-menu li {
-  text-laign: center; }
+  text-align: center; }
 
 #mobile-menu ul.menu {
   padding: 0; }
