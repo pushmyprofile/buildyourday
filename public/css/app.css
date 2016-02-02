@@ -1,10 +1,15 @@
 @charset "UTF-8";
 /* colours */
 /* Misc */
+/* Classes */
+.green-bg {
+  background: #C9E3CC; }
+
 /* Overide Settings */
 /* Top Bar */
 /* Buttons */
 /* Modals */
+/* Grid */
 /* Breakpoints (Screen Size) */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -1211,9 +1216,9 @@ h6 {
 
 @media screen and (min-width: 40em) {
   h1 {
-    font-size: 3rem; }
+    font-size: 3.75rem; }
   h2 {
-    font-size: 2.5rem; }
+    font-size: 3rem; }
   h3 {
     font-size: 1.9375rem; }
   h4 {
@@ -1430,13 +1435,13 @@ kbd {
   padding: 1.5em;
   margin: 0 1rem 1rem 0;
   font-size: 0.9rem;
-  background: #A9E5CD;
-  color: #000; }
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background: #7bd7b2;
-    color: #000; }
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff; }
   .button.tiny {
     font-size: 0.6rem; }
   .button.small {
@@ -1455,11 +1460,11 @@ kbd {
       background: #147cc0;
       color: #fff; }
   .button.secondary {
-    background: #777;
-    color: #fff; }
+    background: #fff;
+    color: #000; }
     .button.secondary:hover, .button.secondary:focus {
-      background: #5f5f5f;
-      color: #fff; }
+      background: #cccccc;
+      color: #000; }
   .button.success {
     background: #3adb76;
     color: #fff; }
@@ -1493,11 +1498,11 @@ kbd {
         border-color: #0c4d78;
         color: #0c4d78; }
     .button.hollow.secondary {
-      border: 1px solid #777;
-      color: #777; }
+      border: 1px solid #fff;
+      color: #fff; }
       .button.hollow.secondary:hover, .button.hollow.secondary:focus {
-        border-color: #3c3c3c;
-        color: #3c3c3c; }
+        border-color: gray;
+        color: gray; }
     .button.hollow.success {
       border: 1px solid #3adb76;
       color: #3adb76; }
@@ -1886,8 +1891,8 @@ select {
   background: #2199e8;
   color: #fefefe; }
   .badge.secondary {
-    background: #777;
-    color: #fefefe; }
+    background: #fff;
+    color: #0a0a0a; }
   .badge.success {
     background: #3adb76;
     color: #fefefe; }
@@ -1968,11 +1973,11 @@ select {
       background: #147cc0;
       color: #fff; }
   .button-group.secondary .button {
-    background: #777;
-    color: #fff; }
+    background: #fff;
+    color: #000; }
     .button-group.secondary .button:hover, .button-group.secondary .button:focus {
-      background: #5f5f5f;
-      color: #fff; }
+      background: #cccccc;
+      color: #000; }
   .button-group.success .button {
     background: #3adb76;
     color: #fff; }
@@ -2018,7 +2023,7 @@ select {
       .callout.primary a:hover {
         color: #0a4063; }
   .callout.secondary {
-    background-color: #ebebeb; }
+    background-color: white; }
   .callout.success {
     background-color: #e1faea; }
     .callout.success a {
@@ -2255,8 +2260,8 @@ select {
   background: #2199e8;
   color: #fefefe; }
   .label.secondary {
-    background: #777;
-    color: #fefefe; }
+    background: #fff;
+    color: #0a0a0a; }
   .label.success {
     background: #3adb76;
     color: #fefefe; }
@@ -2276,7 +2281,7 @@ select {
     .media-object.stack-for-small .media-object-section {
       display: block;
       padding: 0;
-      padding-bottom: 1rem; }
+      padding-bottom: 6rem; }
       .media-object.stack-for-small .media-object-section img {
         width: 100%; } }
 
@@ -2284,9 +2289,9 @@ select {
   display: table-cell;
   vertical-align: top; }
   .media-object-section:first-child {
-    padding-right: 1rem; }
+    padding-right: 6rem; }
   .media-object-section:last-child:not( + &:first-child) {
-    padding-left: 1rem; }
+    padding-left: 6rem; }
   .media-object-section.middle {
     vertical-align: middle; }
   .media-object-section.bottom {
@@ -2606,7 +2611,7 @@ body {
   .progress.primary .progress-meter {
     background-color: #2199e8; }
   .progress.secondary .progress-meter {
-    background-color: #777; }
+    background-color: #fff; }
   .progress.success .progress-meter {
     background-color: #3adb76; }
   .progress.alert .progress-meter {
@@ -3661,5 +3666,29 @@ table.hover tr:nth-of-type(even):hover {
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1); } }
+
+@-webkit-keyframes panning {
+  0% {
+    background-position: 0% 0%; }
+  25% {
+    background-position: 100% 100%; }
+  50% {
+    background-position: 100% 0%; }
+  75% {
+    background-position: 0 100%; }
+  200% {
+    background-position: 0 0; } }
+
+@keyframes panning {
+  0% {
+    background-position: 0% 0%; }
+  25% {
+    background-position: 100% 100%; }
+  50% {
+    background-position: 100% 0%; }
+  75% {
+    background-position: 0 100%; }
+  200% {
+    background-position: 0 0; } }
 
 /*# sourceMappingURL=app.css.map */

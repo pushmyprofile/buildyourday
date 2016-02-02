@@ -1,8 +1,22 @@
 /* colours */
-$green:#A9E5CD;
+$green:#C9E3CC;
+$grey:#F1F4F7;
+$secondary-color: #fff;
 
 /* Misc */
 $transparent:rgba(0,0,0,0.1);
 $transparent-dark:rgba(0,0,0,0.8);
+
+
+/* Classes */
+.green-bg
+{
+    
+background:$green;
+
+}
+
+
+
 
 

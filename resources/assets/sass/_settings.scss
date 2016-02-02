@@ -8,13 +8,36 @@ $topbar-input-width: 200px;
 
 /* Buttons */
 $button-padding:1.5em;
-$button-background:$green;
+$button-background:$transparent;
+
+
+$header-sizes: (
+  small: (
+    'h1': 24,
+    'h2': 20,
+    'h3': 19,
+    'h4': 18,
+    'h5': 17,
+    'h6': 16,
+  ),
+  medium: (
+    'h1': 60,
+    'h2': 48,
+    'h3': 31,
+    'h4': 25,
+    'h5': 20,
+    'h6': 16,
+  ),
+);
 
 /* Modals */
 $reveal-background: $transparent-dark;   
 $reveal-max-width: 100%;
 $reveal-border:  0px;
 $reveal-padding: 8rem 4rem;
+
+/* Grid */
+$global-padding: 6rem;
 
 /* Breakpoints (Screen Size) */
 $breakpoints: (

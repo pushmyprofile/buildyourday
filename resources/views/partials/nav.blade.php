@@ -17,8 +17,8 @@
 </button>
 </div>
 
-<div data-sticky-container>
-  <div class="sticky" id="example" data-sticky data-margin-top="0" style="width:100%;" data-margin-bottom="0" data-top-anchor="topAnchorExample" data-btm-anchor="bottomOfContentId:bottom">
+<div>
+  <div id="example" data-margin-top="0" style="width:100%;" data-margin-bottom="0" data-top-anchor="topAnchorExample" data-btm-anchor="bottomOfContentId:bottom">
 <div class="top-bar hide-for-small-only" data-magellan>
 	<div class="top-bar-left">		
 			<a href="/"><img class="logo" src="/images/logo.png" alt="BuildYourDay"></a>  
